@@ -1,4 +1,15 @@
-__pycache__/
-*.pyc
-.env
-.venv
+library-system/
+│── src/
+│   ├── item.py
+│   ├── book.py
+│   ├── magazine.py
+│   ├── shelf.py
+│   ├── library.py
+│   └── main.py
+│
+│── tests/
+│   └── test_library.py
+│
+│── README.md
+│── requirements.txt
+│── .gitignore
