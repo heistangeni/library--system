@@ -1,3 +1,5 @@
+from .item import Item
+
 class Magazine(Item):
     def __init__(self, title: str, pages: int, issue_number: int):
         super().__init__(title, pages)
