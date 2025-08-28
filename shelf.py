@@ -10,7 +10,6 @@ class Shelf:
         self.items.append(item)
 
     def search_item(self, title: str):
-        """Search item by title (basic algorithm)"""
         for item in self.items:
             if item.title.lower() == title.lower():
                 return item
