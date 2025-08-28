@@ -15,18 +15,18 @@ def main():
     library.add_shelf(shelf1)
 
     # Polymorphism
-    print("\n--- Displaying Items ---")
+    print("\n Displaying Items")
     for item in shelf1.items:
         item.display_info()
 
     # Type checking
-    print("\n--- Search Example ---")
+    print("\nSearch Example")
     found = shelf1.search_item("Design Patterns")
     if isinstance(found, Book):
         print(f"Found book! Author: {found.get_author()}")
 
     # Counting algorithm
-    print("\n--- Counting Items ---")
+    print("\nCounting Items")
     print(f"Total items in library: {library.count_items()}")
 
 if __name__ == "__main__":
