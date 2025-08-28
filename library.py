@@ -1,3 +1,7 @@
+from typing import List
+from .shelf import Shelf
+
+
 class Library:
     def __init__(self, name: str):
         self.name = name
