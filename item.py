@@ -1,11 +1,10 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 class Item(ABC):
     def __init__(self, title: str, pages: int):
         self.title = title
         self.pages = pages
 
-    @abstractmethod
+    
     def display_info(self):
-        """Polymorphic method to display item details"""
-        pass
+        return "Item info:{self.title}, {self.pages}'
